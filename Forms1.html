@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">Venta en línea.<h1>
+	</header> <br>
+		<form>
+			<fieldset>
+				<legend for="info">Información general.</legend>
+					<table width="100%">
+						<tr>
+							<td>
+								<label for="usuario">Nombre:</label> <br>
+								<input type="text" name="usuario" id="usuario" maxlength="25" placeholder="Nombre"> 
+							</td>
+							<td> 
+								<label for="ApellidoP">Apellido paterno:</label> <br>
+								<input type="text" name="ApellidoP" maxlength="25" placeholder="Paterno" id="ApellidoP"> <br> 
+							</td>
+							<td>
+								<label for="ApellidoM">Apellido materno:</label> <br>
+								<input type="text" name="ApellidoM" id="ApellidoM" placeholder="Materno" maxlength="25"> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="username">Nombre de usuario:</label> <br>
+								<input type="text" name="username" id="username" maxlength="25" placeholder="Nombre de usuario">
+							</td>
+							<td>
+								<label for="password">Contraseña:</label> <br>
+								<input type="password" name="password" id="password" maxlength="25" placeholder="Contraseña">
+							</td>
+							<td>
+								<label for="birthday">Fecha de nacimiento:</label> <br>
+								<input type="date" name="birthday" id="birthday">
+							</td>
+						</tr>
+					</table>
+			</fieldset>
+			<fieldset>
+				<legend for="facturacion">Datos de facturación.</legend>
+					<table width="100%">
+						<tr>
+							<td>
+								<label for="country">País:</label> <br>
+								<select name="country" id="country">
+									<option>México</option>
+									<option>Estados Unidos</option>
+									<option>Canadá</option>
+									<option>Otro</option>
+								</select>
+								<label for="other">Si seleccionaste otro:</label> 
+								<input type="text" name="other" size="10px">
+							</td>
+							<td>
+								<label for="city">Ciudad:</label> <br>
+								<select multiple name="city" id="city">
+									<option>Aguascalientes</option>
+									<option>Baja California</option>
+									<option>Baja California Sur</option>
+									<option>Campeche</option>
+									<option>Chiapas</option>
+									<option>Chihuahua</option>
+									<option>Ciudad de México</option>
+									<option>Coahuila</option>
+									<option>Colima</option>
+									<option>Durango</option>
+									<option>Estado de México</option>
+									<option>Guanajuato</option>
+									<option>Guerrero</option>
+									<option>Hidalgo</option>
+									<option>Jalisco</option>
+									<option>Michoacan</option>
+									<option>Morelos</option>
+									<option>Nayarit</option>
+									<option>Nuevo León</option>
+									<option>Oaxaca</option>
+									<option>Puebla</option>
+									<option>Querétaro</option>
+									<option>Quintana Roo</option>
+									<option>San Luis Potosí</option>
+									<option>Sinaloa</option>
+									<option>Sonora</option>
+									<option>Tabasco</option>
+									<option>Tamaulipas</option>
+									<option>Tlaxcala</option>
+									<option>Veracruz</option>
+									<option>Yucatán</option>
+									<option>Zacatecas</option>
+								</select>
+							</td>
+							<td>
+								<label for="street">Calle:</label> <br>
+								<input type="text" name="street" placeholder="Calle" maxlength="25" id="street">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="adress">Número de Casa:</label> <br>
+								<input type="text" name="adress" id="adress" placeholder="Número de casa" maxlength="25">
+							</td>
+							<td>
+								<label for="neighborhood">Colonia:</label> <br>
+								<input type="text" name="neighborhood" id="neighborhood" maxlength="25" placeholder="Colonia">
+							</td>
+							<td>
+								<label for="e-mail">Correo:</label> <br>
+								<input type="e-mail" name="e-mail" id="e-mail" maxlength="35" placeholder="Correo">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="rfc">R.F.C.</label> <br>
+								<input type="text" name="rfc" id="rfc" maxlength="13" placeholder="R.F.C.">
+							</td>
+							<td>
+								<label for="postalcode">C.P.</label> <br>
+								<input type="number" name="postalcode" id="postalcode" maxlength="5" placeholder="Codigo postal">
+							</td>
+							<td>
+								<input type="submit" name="submit" id="reset" size="25px" value="Envíar Datos">
+								<input type="reset" name="reset" id="reset" size="25px" value="Borrar todo">
+							</td>
+						</tr>
+					</table>
+			</fieldset>
+		</form>
+</body>
+</html>
