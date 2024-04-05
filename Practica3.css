@@ -1,0 +1,35 @@
+div{
+    border-radius: 25px;
+    background-color: orange;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
+
+div:hover{
+    background-color: lightblue;
+    color: black;
+    transform: skew(-20deg); 
+    text-decoration: none;
+}
+
+div:active{
+    background-color: green;
+    color: blue;
+}
+
+body{
+    background-color: lightpink;
+}
