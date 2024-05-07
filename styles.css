@@ -1,0 +1,45 @@
+body{
+  background-color: bisque;
+}
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.carousel-content {
+  display: flex;
+}
+
+.carousel-content img {
+  width: 100%;
+  display: none;
+  border-radius: 15px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1); 
+}
+
+.carousel-content img.active {
+  display: block;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(189, 12, 12, 0.5);
+  color: rgb(23, 60, 184);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#prevBtn {
+  left: 0;
+}
+
+#nextBtn {
+  right: 0;
+}
+
