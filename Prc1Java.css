@@ -1,0 +1,27 @@
+#principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+  }
+
+
+input[type="button"] {
+    background-color: #25109e; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+    #resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #4148ad; 
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: none;
+}
