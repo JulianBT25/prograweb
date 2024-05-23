@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 4vh;
+    margin: 1em;
+}
+
+#formu{
+    display: flex;
+    line-height: 2vh;
+    padding: 1em;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+input{
+    border-color:rgba(194, 191, 191, 0.479);
+}
+
+input[type="submit"]{
+    background-color: rgba(95, 169, 230, 0.911);
+    border: none;
+    color: white;
+    padding: .5em;
+    width: 100%;
+}
